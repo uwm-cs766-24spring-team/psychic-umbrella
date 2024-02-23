@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{CS766 Proposal}
+\author{Mondo Jiang, William Sun, Lao Chang}
+\date{February 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Urban regions like Madison are experiencing an unparalleled rise in population density in today's fast-paced world, which makes crowd control difficult. Large crowds are frequently drawn to events like concerts, protests, sporting events, and other big gatherings, which poses a challenge to public safety and smooth operations. Physical barriers and manual labor are key elements of traditional crowd monitoring strategies, which are typically expensive, time-consuming, labor-intensive, and prone to error.
+
+The emergence of Computer Vision (CV) has brought about a significant transformation in crowd management by providing precise and automated methods for crowd analysis and counting. Through the use of machine learning (ML) algorithms and image processing techniques, CV systems are able to effectively track and count the number of people in crowded environments. These devices make it possible to observe crowd dynamics in real time.
+\newline
+TODO: Introduce Problem...
+
+We are interested in this problem because of the lackluster real-time occupancy report currently provided by UW-Madison's gyms. Even though every person entering the recreation center is required to scan into the system, our gyms fail in its estimation of each floor's occupancy. Given the spacious floor plans in our new gyms, Nicholas and Bakke, crowd counting from images and video is a promising approach to revamp the live building usage tracker.
+
+Crowd counting is relevant to our course because... (TODO)
+
+\section{Related Work}
+There are many approaches to crowd counting. Although vision-based approaches from image/video data is a very natural methodology, In a building environment such as a gym, there are many ingenious methods to accurately determine how busy each floor is. For example, the use of sensors that scan for radio signals (Bluetooth and WiFi) in an area is employed in many university libraries such as UCSD and UW-Madison, which can quickly and accurately assess floor occupancy \cite{waitz}.
+
+Explain classical CV approaches https://github.com/ZhihengCV/Bayesian-Crowd-Counting?tab=readme-ov-file http://www.svcl.ucsd.edu/projects/peoplecnt/demo.htm (TODO)
+
+More recently, convolutional neural network methods have become popular in vision-based crowd counting. Explain methods (TODO)
+
+\section{Approach}
+There are two approaches for crowd counting in a gym. The first is to point a camera system directly on each floor, ensuring that the FoV is covering the entire floor. This approach is more direct, but it is susceptible to occlusions.
+
+The second approach is to have a camera feed tracking the stairs on each floor of the gym. Given that we know how many people are inside the building in total, we can track the number of people going up a floor and down a floor at all times. This approach is not susceptible to occlusions and we hypothesize that it will be much more accurate. For this approach, we will ignore the elevator for now, but it can be easily extended to account for people taking the elevator.
+
+Explain how we will label data (TODO) (do we even want to label data???)
+
+Explain things we will try with classical CV (TODO)
+
+Explain things we will try with NN (TODO)
+
+Explain how we will evaluate (TODO)
+
+
+\section{Timeline}
+\begin{enumerate} % We are currently on week 5
+	\item Capture custom test data (Week 6)
+	\item Implement classical CV approach (Week 7), implement NN approach
+	\item Implement visualizations of data/method/samples (Week 8)
+	\item Midterm Report (Week 9) (Due March 22)
+	      % Week 10 is spring break  j
+	\item Test on other datasets from the Internet (Week 11)
+	\item Test on custom test data (Week 12)
+	\item Week 13 will focus on Misc. work
+	\item Presentation (Week 14 \& 15) (Due March 19), Project Webpage
+\end{enumerate}
+
+\begin{thebibliography}{00}
+	\bibitem{waitz} https://waitz.io/
+\end{thebibliography}
+
+\end{document}
