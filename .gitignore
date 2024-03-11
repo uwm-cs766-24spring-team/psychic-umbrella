@@ -1,3 +1,5 @@
+dataset
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,python,latex
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,latex
 
@@ -318,7 +320,8 @@ TSWLatexianTemp*
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
