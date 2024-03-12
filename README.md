@@ -1,8 +1,8 @@
 Methods:
 1) Direct - Lao
-2) Direct Gaussian - William
-3) Indirect - William
-4) Deep Learning - Mondo
+2) Indirect + baseline - William
+3) Deep Learning - Mondo
 
 Dataset:
-1) ShanghaiTechA
+1) ShanghaiTech
+2) PETS2009
