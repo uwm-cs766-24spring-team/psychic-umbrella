@@ -1,3 +1,3 @@
-[submodule "mondo/original"]
-	path = mondo/original
+[submodule "methods/deep-learning-fine-grained/original"]
+	path = methods/deep-learning-fine-grained/original
 	url = git@github.com:jia-wan/Fine-Grained-Counting.git
