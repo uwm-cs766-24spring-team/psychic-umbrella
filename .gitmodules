@@ -1,3 +1,6 @@
 [submodule "methods/deep-learning-fine-grained/original"]
 	path = methods/deep-learning-fine-grained/original
 	url = git@github.com:jia-wan/Fine-Grained-Counting.git
+[submodule "methods/deep-learning-fine-grained/forked"]
+	path = methods/deep-learning-fine-grained/forked
+	url = git@github.com:MondoGao/Fine-Grained-Counting.git
