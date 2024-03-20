@@ -4,3 +4,5 @@
 [submodule "methods/deep-learning-fine-grained/forked"]
 	path = methods/deep-learning-fine-grained/forked
 	url = git@github.com:MondoGao/Fine-Grained-Counting.git
+	branch = main
+
