@@ -8,3 +8,4 @@
 [submodule "methods/deep-learning-mcnn"]
 	path = methods/deep-learning-mcnn
 	url = git@github.com:uwm-cs766-24spring-team/crowdcount-mcnn.git
+	branch = master
