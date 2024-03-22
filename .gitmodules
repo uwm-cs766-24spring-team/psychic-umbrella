@@ -5,3 +5,6 @@
 	path = methods/deep-learning-fine-grained/forked
 	url = git@github.com:MondoGao/Fine-Grained-Counting.git
 	branch = main
+[submodule "methods/deep-learning-mcnn"]
+	path = methods/deep-learning-mcnn
+	url = git@github.com:uwm-cs766-24spring-team/crowdcount-mcnn.git
