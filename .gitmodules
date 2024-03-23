@@ -1,8 +1,8 @@
-[submodule "methods/deep-learning-fine-grained"]
-	path = methods/deep-learning-fine-grained
-	url = git@github.com:uwm-cs766-24spring-team/Fine-Grained-Counting.git
-	branch = main
 [submodule "methods/deep-learning-mcnn"]
 	path = methods/deep-learning-mcnn
 	url = git@github.com:uwm-cs766-24spring-team/crowdcount-mcnn.git
 	branch = master
+[submodule "methods/deep-learning-fine-grained"]
+	path = methods/deep-learning-fine-grained
+	url = git@github.com:uwm-cs766-24spring-team/Fine-Grained-Counting.git
+	branch = main
