@@ -7,3 +7,5 @@ Methods:
 1) ShanghaiTech
 2) PETS2009
 
+Command for generating video from frames: ffmpeg -framerate 5 -pattern_type glob -i '*.png' -pix_fmt yuv420p out.mp4
+
