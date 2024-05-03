@@ -16,7 +16,6 @@ Our objective and goals are the following:
 1) ShanghaiTech
 2) PETS2009
 3) Fine-Grained
-4) VIRAT
 
 ## Run Methods:
 1. Download above dataset, unzip, and place into top directory
