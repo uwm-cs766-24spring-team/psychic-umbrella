@@ -6,3 +6,7 @@
 	path = methods/deep-learning-fine-grained
 	url = git@github.com:uwm-cs766-24spring-team/Fine-Grained-Counting.git
 	branch = main
+[submodule "webpage"]
+	path = webpage
+	url = git@github.com:uwm-cs766-24spring-team/uwm-cs766-24spring-team.github.io.git
+	branch = main
